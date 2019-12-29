@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ScoreboardTableComponent } from './components/scoreboard-table/scoreboard-table.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [ScoreboardTableComponent],
   imports: [
     CommonModule
   ]
